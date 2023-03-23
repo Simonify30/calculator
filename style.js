@@ -17,13 +17,6 @@ const dot = document.querySelector('.dot');
 const del = document.querySelector('.delete');
 const equal = document.querySelector('.equal');
 const percent = document.querySelector('.percent');
-
-
-
-
-
-
-
 const input = document.querySelector('input');
 
 
@@ -81,7 +74,7 @@ divide.addEventListener('click', ()=>{
 })
 
 multiply.addEventListener('click', ()=>{
-    input.value += 'x'
+    input.value += '*'
 })
 
 percent.addEventListener('click', ()=>{
